@@ -1,10 +1,10 @@
-#Projekt realistycznej wody wykonywany przy użyciu biblioteki OpenGL
+##Projekt realistycznej wody wykonywany przy użyciu biblioteki OpenGL
 
-#Technologie
+##Technologie
 
 C++/OpenGL
 
-#Biblioteki
+##Biblioteki
 
 glfw - biblioteka która pozwala na wyświetlanie okna oraz obsługę Inputów gracza.
 glad - biblioteka inicjalizująca OpenGL
@@ -12,7 +12,7 @@ glm - biblioteka matetamtyczna np:.(Transformacje macierzy, Rotacje macierzy, sk
 
 OpenGL - biblioteka graficzna pozwalająca tworzyć tak zwane shadery (program który obsługuję wieszchołki w przestrzeni i pixele na ekranie)
 
-#Aktualny stan
+##Aktualny stan
 
 Najnowsza wersja na branchu Refactor.
 
@@ -27,3 +27,5 @@ Dodane:
 TIP:
 
 Change In Visual Studio Solution Platforms x86
+
+Link do filmiku z projektu: https://drive.google.com/file/d/12aI0KGX_zXODdhRRPuBNMP3okjMmRX0W/view?usp=sharing
