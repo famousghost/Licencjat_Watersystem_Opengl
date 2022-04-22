@@ -1,0 +1,282 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Window">
+      <UniqueIdentifier>{3e475785-28cc-4d9d-aa82-ab2e8640a716}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\KeyListeners">
+      <UniqueIdentifier>{cf1f9174-b08f-4fa7-806c-58eeaf8c2958}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Shaders">
+      <UniqueIdentifier>{dcae8b8f-8482-416f-8c0f-bd1342a97e65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\KeyListeners">
+      <UniqueIdentifier>{1aeed625-1316-4f5a-a9e9-d0766e2b9ed2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Shaders">
+      <UniqueIdentifier>{b509fe15-1541-4972-8487-b1754225683b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\VAO">
+      <UniqueIdentifier>{2bfc0f2c-0acc-43ba-9f9f-0a6c863c2c4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Window">
+      <UniqueIdentifier>{ec12fff8-9433-45d2-9ba5-6d70a37f038b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\VAO">
+      <UniqueIdentifier>{8d42b39d-3c35-4b5d-a9d5-45b167c5436e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Textures">
+      <UniqueIdentifier>{b5391d6a-627a-4bb9-9c3a-f19116ce18c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Textures">
+      <UniqueIdentifier>{9e7f519c-0b19-4e7f-a798-bdaac2ea4cbc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Mesh">
+      <UniqueIdentifier>{521ca313-b404-46dc-a430-57c703cc42ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Mesh">
+      <UniqueIdentifier>{97ce684a-6bf7-4a19-a5e0-29f155d2c020}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Log">
+      <UniqueIdentifier>{801ba494-c2f6-4f7e-bf56-8e717bb4709c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Log">
+      <UniqueIdentifier>{ea3b3007-74c1-43fd-b981-39ed71d6282b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Renderer">
+      <UniqueIdentifier>{2160d57f-263f-4599-a443-98323973a12c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Renderer">
+      <UniqueIdentifier>{1f6cdc8f-d4a0-45e3-a5a4-59b09e9d28ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Camera">
+      <UniqueIdentifier>{ee4c02b1-66aa-4a6e-b7f4-1baf6b1883a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Camera">
+      <UniqueIdentifier>{fbcb21a4-922b-4c74-a190-0be8a8fee27a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Time">
+      <UniqueIdentifier>{398553f5-f203-48f9-bf63-e1b669b77aa0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Time">
+      <UniqueIdentifier>{345b6917-2eb2-4a24-8221-3ba9cd1e0e19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Lights">
+      <UniqueIdentifier>{a60b9ee9-5874-4fe3-bb32-6cb04e2c4f8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Lights">
+      <UniqueIdentifier>{19b938d0-7864-49da-9141-0005d2e6f8e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Models">
+      <UniqueIdentifier>{954eb28b-ded2-4d25-a785-0fada7104e05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GLAD">
+      <UniqueIdentifier>{392bc3c9-0eb4-4d90-8738-779eb519b999}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\FrameBufferObject">
+      <UniqueIdentifier>{ad5957ea-4948-4289-8cb6-d629cfe59c7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\FrameBufferObject">
+      <UniqueIdentifier>{61814d9e-1656-4c3f-bc6b-ad8d8d0be07d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Models">
+      <UniqueIdentifier>{4ac4e060-a0f3-4718-83fc-354ccbb7d048}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="mainShader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Window.cpp">
+      <Filter>Source Files\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyInput.cpp">
+      <Filter>Source Files\KeyListeners</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderProgram.cpp">
+      <Filter>Source Files\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>Source Files\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Source Files\Textures</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshBuilder.cpp">
+      <Filter>Source Files\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Logger.cpp">
+      <Filter>Source Files\Log</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer.cpp">
+      <Filter>Source Files\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Time.cpp">
+      <Filter>Source Files\Time</Filter>
+    </ClCompile>
+    <ClCompile Include="Light.cpp">
+      <Filter>Source Files\Lights</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>Source Files\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="glad.c">
+      <Filter>Source Files\GLAD</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameBufferObject.cpp">
+      <Filter>Source Files\FrameBufferObject</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshStructure.cpp">
+      <Filter>Source Files\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="VaoForPicture.cpp">
+      <Filter>Source Files\VAO</Filter>
+    </ClCompile>
+    <ClCompile Include="VaoStandardObject.cpp">
+      <Filter>Source Files\VAO</Filter>
+    </ClCompile>
+    <ClCompile Include="VaoForWater.cpp">
+      <Filter>Source Files\VAO</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshManager.cpp">
+      <Filter>Source Files\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="VertexArrayObjectPictureFactory.cpp">
+      <Filter>Source Files\VAO</Filter>
+    </ClCompile>
+    <ClCompile Include="VertexArrayObjectStanderObjectFactory.cpp">
+      <Filter>Source Files\VAO</Filter>
+    </ClCompile>
+    <ClCompile Include="VertexArrayObjectWaterFactory.cpp">
+      <Filter>Source Files\VAO</Filter>
+    </ClCompile>
+    <ClCompile Include="CubeBuilder.cpp">
+      <Filter>Source Files\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="PictureBuilder.cpp">
+      <Filter>Source Files\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="PyramidBuilder.cpp">
+      <Filter>Source Files\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="SphereBuilder.cpp">
+      <Filter>Source Files\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="TerrainBuilder.cpp">
+      <Filter>Source Files\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="WaterBuilder.cpp">
+      <Filter>Source Files\Models</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="KeyInput.h">
+      <Filter>Header Files\KeyListeners</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderProgram.h">
+      <Filter>Header Files\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Window.h">
+      <Filter>Header Files\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>Header Files\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Header Files\Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshBuilder.h">
+      <Filter>Header Files\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Logger.h">
+      <Filter>Header Files\Log</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
+      <Filter>Header Files\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Header Files\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Time.h">
+      <Filter>Header Files\Time</Filter>
+    </ClInclude>
+    <ClInclude Include="Light.h">
+      <Filter>Header Files\Lights</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>Header Files\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameBufferObject.h">
+      <Filter>Header Files\FrameBufferObject</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshStructure.h">
+      <Filter>Header Files\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="defines.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IMeshStructureBuilder.h">
+      <Filter>Header Files\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="IVertexArrayObject.h">
+      <Filter>Header Files\VAO</Filter>
+    </ClInclude>
+    <ClInclude Include="VaoForPicture.h">
+      <Filter>Header Files\VAO</Filter>
+    </ClInclude>
+    <ClInclude Include="VaoForWater.h">
+      <Filter>Header Files\VAO</Filter>
+    </ClInclude>
+    <ClInclude Include="VaoStandardObject.h">
+      <Filter>Header Files\VAO</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexArrayObjectFactory.h">
+      <Filter>Header Files\VAO</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshManager.h">
+      <Filter>Header Files\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexArrayObjectPictureFactory.h">
+      <Filter>Header Files\VAO</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexArrayObjectStanderObjectFactory.h">
+      <Filter>Header Files\VAO</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexArrayObjectWaterFactory.h">
+      <Filter>Header Files\VAO</Filter>
+    </ClInclude>
+    <ClInclude Include="CubeBuilder.h">
+      <Filter>Header Files\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="PictureBuilder.h">
+      <Filter>Header Files\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="PyramidBuilder.h">
+      <Filter>Header Files\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="SphereBuilder.h">
+      <Filter>Header Files\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="TerrainBuilder.h">
+      <Filter>Header Files\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="WaterBuilder.h">
+      <Filter>Header Files\Models</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
